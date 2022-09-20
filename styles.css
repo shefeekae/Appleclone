@@ -1,0 +1,700 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   overflow-x:hidden ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    
+    background-color: #1d1d1f;
+    color: #f5f5f7;
+    width: 1440px;
+    opacity: 97.9%;
+    padding: 0 208px 0 208px;
+    height: 44px;
+    position: fixed;
+    z-index: 10;
+    
+}
+ul{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 0 12px 0 12px;
+}
+li{
+    list-style:none;
+    text-align: left;
+    line-height: 47px;
+    letter-spacing: -0.12px;
+    padding-left: 40px;
+    font-size: small;
+    font-weight: 100;
+
+
+}
+a{
+    text-decoration: none;
+    color: #f5f5f7;
+    
+}
+.WhiteSpace{
+    position: relative;
+    top: 56px;
+    text-align: center;
+    background: white;
+    color: black;
+    height: 85px;
+    font-size: small;
+}
+.WhiteSpace a{
+    color: #0066CC;
+}
+.WhiteSpace a:hover{
+    text-decoration: underline;
+}
+.WhiteSpace span{
+    color: #0066CC;
+}
+
+.Proimage{
+    position: relative;
+    background: black;
+    height: 736px;
+    width: 100%;
+    }
+
+.Protext{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    color: #f5f5f7;
+    top: 100px;
+    font-size: 27px;
+    left: 38%;
+}
+.Proimage img{
+    position: relative;
+    left: 19.7%;
+    width: 865px;
+    height: 460px;
+    margin-top: 276px;
+    
+}
+.Protext2{
+    position: relative;
+    color: #f5f5f7;
+    top: -569px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    left: 44.2%;
+}
+.Proavailable{
+    position: relative;
+    color: grey;
+    top: -552px;
+    left: 38%;
+    font-size: 20.5px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Learnmore{
+    position: relative;
+    left: 40.4%;
+    font-size: 20px;
+    color: #2997ff;
+    top: -535px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+}
+.Learnmore a{
+color: #2997ff; 
+}
+.Learnmore a:hover{
+     text-decoration: underline;
+}
+.Pre-order{
+    position: relative;
+    left: 51.4%;
+    font-size: 20px;
+    color: #2997ff;
+    top: -562px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Pre-order a{
+    color: #2997ff;
+}
+.Pre-order a:hover{
+    text-decoration: underline;
+}
+.iPhoneimage{
+    position: relative;
+    background:#fdfafa;
+    height: 736px;
+    width: 100%;
+
+}
+.iPhoneimage img{
+    margin-top: 18.1%;
+    margin-left: 21.2%;
+    width: 820px;
+    
+}
+.iPhonetext{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    color: black;
+    top: 66px;
+    font-size: 27px;
+    left: 41.5%;
+
+}.iPhonetext2{
+    position: relative;
+    color: black;
+    top: -592px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    left: 43.6%;
+}
+.iPhoneavailable{
+    position: relative;
+    color: grey;
+    top: -579px;
+    left: 35.1%;
+    font-size: 20.5px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iPhoneavailable2{
+    position: relative;
+    color: grey;
+    top: -573px;
+    left: 35%;
+    font-size: 20.5px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Learnmore2{
+    position: relative;
+    left: 40.4%;
+    font-size: 20px;
+    color: #0066CC;
+    top: -558px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Learnmore2 a{
+    color: #0066CC;   
+}
+.Learnmore2 a:hover{
+    text-decoration: underline;
+}
+.Pre-order2{
+    position: relative;
+    left: 51.4%;
+    font-size: 20px;
+    color: #0066CC;
+    top: -586px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Pre-order2 a{
+    color: #0066CC;
+}
+.Pre-order2 a:hover{
+    text-decoration: underline;
+}
+.Airpods{
+    position: relative;
+    background: black;
+    height: 736px;
+    width: 100%;
+}
+.Airpods img{
+    margin-top: 19.1%;
+    margin-left: 18.3%;
+    width: 898px;
+    height: 460px;
+
+}
+.Airpodstext{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    color: #f5f5f7;
+    top: 63px;
+    font-size: 26px;
+    left: 39.5%;
+}
+.Airpodstext2{
+    position: relative;
+    color: rgb(245, 245, 247);
+    top: -601px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    left: 38.3%; 
+}
+.Airpodsavailable{
+    position: relative;
+    color: grey;
+    top: -579px;
+    left: 37.5%;
+    font-size: 20.5px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Learnmore3{
+    position: relative;
+    left: 40.4%;
+    font-size: 20px;
+    color: #2997ff;
+    top: -558px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+}
+.Learnmore3 a{
+    color: #2997ff;
+}
+.Learnmore3 a:hover{
+    text-decoration: underline;
+}
+.Pre-order3{
+    position: relative;
+    left: 51.4%;
+    font-size: 20px;
+    color: #2997ff;
+    top: -586px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Pre-order3 a{
+    color: #2997ff;
+}
+.Pre-order3 a:hover{
+    text-decoration: underline;
+}
+.WatchSE{
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    width: 705px;
+    height: 580px;
+    margin: 10px 5px 0 10px;
+
+}
+.WatchUltra{
+    position: relative;
+    float: left;
+    background-color: #fcf9f9;
+    width: 705px;
+    height: 580px;
+    margin: 10px 10px 0 5px;
+}
+.WatchSE img{
+    position: absolute;
+    width: 700px;
+    margin-top: 213px;
+    left: 0.35%;
+}
+.WatchUltra img{
+    position: absolute;
+    width: 700px;
+    margin-top: 293px;
+    left: 0.35%;
+}
+.WatchSEtext img{
+   
+    position: absolute;
+    width: 130px;
+
+    margin-top: 60px;
+    
+    left: 40.5%;
+
+}
+.WatchSEtext2{
+    position: relative;
+    color: black;
+    top: 120px;
+    font-size: 23px;
+    font-weight: 7;
+    left: 36%;
+}
+.Learnmore4{
+    position: relative;
+    left: 36%;
+    font-size: 16px;
+    color: #0066CC;
+    top: 127px;
+    font-weight: lighter;
+    font-family: sans-serif;
+   
+}
+.Learnmore4 a{
+    color: #0066CC;
+}
+.Learnmore4 a:hover{
+    text-decoration: underline;
+}
+.Buy{
+    position: relative;
+    left: 56%;
+    font-size: 16px;
+    color: #0066CC;
+    top: 104px;
+    font-weight: lighter;
+    font-family: sans-serif;
+   
+}
+.Buy a{
+    color: #0066CC;
+}
+.Buy a:hover{
+    text-decoration: underline;
+}
+.WatchUltratext img{
+    position: absolute;
+    width: 130px;
+
+    margin-top: 60px;
+    
+    left: 40.5%;
+}
+.WatchUltratext2{
+    position: relative;
+    color: black;
+    top: 120px;
+    font-size: 23px;
+    font-weight: 7;
+    left: 38.5%;
+}
+.WatchUltraAvailable{
+    position: relative;
+    color: grey;
+    top: 126px;
+    left: 28.5%;
+    font-size: 18.5px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Learnmore5{
+    position: relative;
+    left: 33.5%;
+    font-size: 16px;
+    color: #0066CC;
+    top: 130px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Learnmore5 a{
+    color: #0066CC;
+}
+.Learnmore5 a:hover{
+    text-decoration: underline;
+}
+.OrderNow{
+    position: relative;
+    left: 53.5%;
+    font-size: 16px;
+    color: #0066CC;
+    top: 107px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.OrderNow a{
+    color: #0066CC;
+}
+.OrderNow a:hover{
+    text-decoration: underline;
+}
+.University{
+    position: relative;
+    float: left;
+    background-color: #f7f5f5;
+    width: 705px;
+    height: 580px;
+    margin: 10px 5px 0 10px;
+
+}
+.WatchSeries8{
+    position: relative;
+    float: left;
+    background-color: black;
+    width: 705px;
+    height: 580px;
+    margin: 10px 10px 0 5px;
+}
+.University img{
+    position: absolute;
+    width: 288px;
+    margin-top: 251px;
+    left: 29.35%;
+}
+.WatchSeries8 img{
+    position: absolute;
+    width: 581px;
+    margin-top: 274px;
+    left: 9%;
+}
+.Universitytext{
+    color: rgb(182, 36, 128);
+    position: relative;
+    left: 40%;
+    margin-top: 33px;
+}
+.Universitytext2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    color: black;
+    top: 0px;
+    font-size: 26px;
+    text-align: center;
+    
+    font-style: italic;
+     
+}
+.Universitytext3{
+    position:relative;
+    top:2px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.Shopnow{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    color: #0066CC;
+    top: 10px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Shopnow a{
+    color: #0066CC;
+}
+.Shopnow a:hover{
+    text-decoration: underline;
+}
+.WatchSeries8text img{
+    position: relative;
+    width: 147px;
+    left: 39%;
+    top: -208px;
+}
+.WatchSeries8text2{
+    position: relative;
+    text-align: center;
+    top: -195px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: #f5f5f7
+}
+.Learnmore6{
+    position: relative;
+    left: 37%;
+    font-size: 16px;
+    color: #2997ff;
+    top: -182px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Learnmore6 a{
+    color: #2997ff;
+}
+.Learnmore6 a:hover{
+    text-decoration: underline;
+}.Buy2{
+    position: relative;
+    left: 56%;
+    font-size: 16px;
+    color: #2997ff;
+    top: -204px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Buy2 a{
+    color: #2997ff;
+}
+.Buy2 a:hover{
+    text-decoration: underline;
+}
+.MacBookAir{
+    position: relative;
+    float: left;
+    background-color: white;
+    width: 705px;
+    height: 580px;
+    margin: 10px 5px 0 10px;  
+}
+.iPadAir{
+    position: relative;
+    float: left;
+    background-color: black;
+    width: 705px;
+    height: 580px;
+    margin: 10px 10px 0 5px; 
+}
+.MacBookAir img{
+    position: absolute;
+    width: 622px;
+    margin-top: 254px;
+    left: 6%;
+}
+.iPadAir img{
+    position: absolute;
+    width: 700px;
+    margin-top: 212px;
+    left: 0%; 
+}
+.MacBookAirtext{
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 57px;
+    font-size: 26px;
+}
+.MacBookAirtext2 img{
+    position: relative;
+    width: 194px;
+    top: -192px;
+    left: 36.2%;
+}
+.Learnmore7{
+    position: relative;
+    left: 37.5%;
+    font-size: 16px;
+    color: #0066CC;
+    top: -188px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Learnmore7 a{
+    color: #0066CC;
+}
+.Learnmore7 a:hover{
+    text-decoration: underline;
+}
+.Buy3{
+    position: relative;
+    left: 56%;
+    font-size: 16px;
+    color: #0066CC;
+    top: -208px;
+    font-weight: lighter;
+    font-family: sans-serif; 
+}
+.Buy3 a{
+    color: #0066CC;
+}
+.Buy3 a:hover{
+    text-decoration: underline;
+}
+.iPadAirtext img{
+    top: -144px;
+    position: relative;
+    left: 41%;
+    width: 135px;
+}
+.iPadAirtext2{
+    position: relative;
+    top: -138px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+.Learnmore8{
+    position: relative;
+    left: 37%;
+    font-size: 16px;
+    color: #2997ff;
+    top: -126px;
+    font-weight: lighter;
+    font-family: sans-serif;
+} 
+.Learnmore8 a{
+    color: #2997ff;
+}
+.Learnmore a:hover{
+    text-decoration: underline;
+}
+.Buy4{
+    position: relative;
+    left: 56%;
+    font-size: 16px;
+    color: #2997ff;
+    top: -149px;
+    font-weight: lighter;
+    font-family: sans-serif; 
+}
+.Buy4 a{
+    color: #2997ff;
+}
+.Buy4 a:hover{
+    text-decoration: underline;
+}
+.AppleTv img{
+    width: 100%;
+}
+.WhiteSpace2{
+    width: 100%;
+    height: 35px;
+
+}
+footer{
+    width: 100%;
+    height: 647px;
+    background-color: #F5F5F7;
+}
+.p1{
+    font-size: 12px;
+    text-align: start;
+    font-family: sans-serif;
+    width: 100%;
+}
+.p1 p{
+    padding: 28px 229px 0 229px;
+    line-height: 16px;
+    color: #6E6E73;
+    letter-spacing: -0.12px;
+    font-size: 12px;
+}
+.List ul{
+    display: inline;
+    text-align: left;
+    padding-left: 0px;
+}
+.List ul li{
+    line-height: 25px;
+    padding-left: 0px;
+    font-size: 12px;
+}
+.ListSize{
+    width: 20%;
+    
+}
+.List{
+    display: flex;
+    padding: 12px 229px 0 229px;
+}
+.Link:hover{
+    text-decoration: underline;
+}
+.retail{
+    color: #0066CC;
+
+}
+.retail:hover{
+    text-decoration: underline;
+}
+
